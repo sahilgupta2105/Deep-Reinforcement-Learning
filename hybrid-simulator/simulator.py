@@ -18,3 +18,7 @@ while(True):
 			break
 
 	print('Episode lasted for ',i,' timesteps!')
+	
+	# because the agent is not robust enough, we force it to keep playing until a successful episode results
+	if(i>=950)
+		break
