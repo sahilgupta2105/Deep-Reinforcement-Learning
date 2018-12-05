@@ -1,3 +1,5 @@
+# This environment consists of the 2d physics simulator available in this repository
+
 ## Installation
 
 Install the [OpenAI gym](https://gym.openai.com/docs/).
