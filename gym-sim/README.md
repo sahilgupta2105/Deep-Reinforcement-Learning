@@ -16,7 +16,7 @@ pip install -e .
 
 ```
 import gym
-import gym_banana
+import gym_sim
 
 env = gym.make('Sim-v0')
 ```
