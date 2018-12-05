@@ -1,6 +1,6 @@
 # 2D Physics Simulator for coupled Rigid-Fluid motion
 
-This folder contatins the code for a 2D simulator which simulates the coupled motion of a fluid and rigid ball. The method is based on this [paper] (https://www.cs.ubc.ca/labs/imager/tr/2007/Batty_VariationalFluids)
+This folder contatins the code for a 2D simulator which simulates the coupled motion of a fluid and rigid ball. The method is based on this [paper](https://www.cs.ubc.ca/labs/imager/tr/2007/Batty_VariationalFluids).
 
 The code can be built using the following commands:
 ```
@@ -12,4 +12,4 @@ The build requires Python 3.6+ and C++11. The reinforcement learning libraries a
 
 This code uses a Poisson Disk Sampler, which is originally available [here](https://github.com/thinks/poisson-disk-sampling).
 
-
+The simulator supports two types of boundaries: rectangular and circular. 
