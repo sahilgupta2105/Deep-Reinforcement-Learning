@@ -1,4 +1,6 @@
-## This environment consists of the 2d physics simulator available in this repository
+
+## 2D Coupled Physics Simulator
+The environment consists of the 2d physics simulator available in this repository
 
 ## Installation
 
