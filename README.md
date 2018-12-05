@@ -10,4 +10,14 @@ This folder contains the code the 2D simulator which is used as the backend phys
 
 This folder contains autoencoders which were designed during this project. This approach is used in the original paper, but was abandoned here because it was difficult to integrate with stable baselines in the available time.
 
-## Reinforc
+## Gym Sim
+
+This folder contains a gym environment which is based on the 2D physics simulator.
+
+## Reinforcement Learning
+
+This folder contains the script for training an agent from the gym-sim environment using stable-baselines.
+
+## Hybrid Simulator
+
+This folder contains the final version of the hybrid simulator which is able to balance the ball in air.
