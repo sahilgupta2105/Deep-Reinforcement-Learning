@@ -8,7 +8,9 @@ swig -c++ -python simulator_interface.i
 
 python setup.py build_ext --inplace
 ```
-The build requires Python 3.6+ and C++11. The reinforcement learning libraries are in Python. So, the C++ application is packaged as a Python module using an interface compiler, SWIG. The build also requires a reading/writing library called Partio, which can be installed from [here](https://github.com/wdas/partio).
+The build requires Python 3.6+ and C++11. The reinforcement learning libraries are in Python. So, the C++ application is packaged as a Python module using an interface compiler, SWIG. The build also requires a reading/writing library called Partio, which can be installed from [here](https://github.com/wdas/partio). 
+
+[Eigen](http://eigen.tuxfamily.org/index.php?title=Main_Page) library for linear algebra is used and is already provided with this code.
 
 This code uses a Poisson Disk Sampler, which is originally available [here](https://github.com/thinks/poisson-disk-sampling).
 
