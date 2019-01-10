@@ -21,3 +21,5 @@ This folder contains the script for training an agent from the gym-sim environme
 ## Hybrid Simulator
 
 This folder contains the final version of the hybrid simulator which is able to balance the ball in air.
+
+For more info: refer [here](https://sahilgupta2105.github.io/project1/).
